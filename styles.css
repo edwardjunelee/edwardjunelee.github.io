@@ -1,18 +1,18 @@
 :root {
   color-scheme: dark;
-  --bg: #10100f;
-  --bg-soft: #171613;
-  --panel: #201f1a;
-  --panel-2: #29261f;
-  --ink: #f4efe4;
-  --muted: #bdb3a2;
-  --quiet: #81786a;
-  --line: rgba(244, 239, 228, 0.16);
-  --gold: #d7b46a;
-  --teal: #73c6a7;
-  --coral: #ee8d69;
-  --blue: #8aaee8;
-  --green: #9dbb70;
+  --bg: #100c08;
+  --bg-soft: #181109;
+  --panel: #23190e;
+  --panel-2: #302313;
+  --ink: #fff2d7;
+  --muted: #d7c39f;
+  --quiet: #9b835e;
+  --line: rgba(255, 222, 166, 0.17);
+  --gold: #e1b85b;
+  --teal: #f2cf75;
+  --coral: #b87532;
+  --blue: #f6d98b;
+  --green: #c99a3f;
   --shadow: rgba(0, 0, 0, 0.42);
   --max: 1160px;
   --header-height: 72px;
@@ -30,8 +30,8 @@ html {
 body {
   margin: 0;
   background:
-    linear-gradient(180deg, rgba(16, 16, 15, 0.9), rgba(16, 16, 15, 1)),
-    radial-gradient(circle at top left, rgba(215, 180, 106, 0.11), transparent 34rem),
+    linear-gradient(180deg, rgba(16, 12, 8, 0.9), rgba(16, 12, 8, 1)),
+    radial-gradient(circle at top left, rgba(225, 184, 91, 0.14), transparent 34rem),
     var(--bg);
   color: var(--ink);
   font-family:
@@ -487,7 +487,7 @@ a {
   gap: 5px;
   padding: 16px 18px;
   border-left: 4px solid var(--teal);
-  background: rgba(115, 198, 167, 0.1);
+  background: rgba(242, 207, 117, 0.12);
 }
 
 .artifact-line span {
@@ -712,7 +712,7 @@ a {
   align-items: center;
   min-height: 34px;
   padding: 0 12px;
-  border: 1px solid rgba(115, 198, 167, 0.36);
+  border: 1px solid rgba(242, 207, 117, 0.42);
   border-radius: 999px;
   color: var(--teal);
   font-size: 0.82rem;
