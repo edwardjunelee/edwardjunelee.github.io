@@ -6,27 +6,27 @@
     <title>The Unfinished Promise | AS1 U.S. History Exhibit</title>
     <meta
       name="description"
-      content="A dark themed digital museum exhibit tracing the American narrative from the Thirteen Colonies through the Progressive Era."
+      content="A dark themed digital museum exhibit tracing the American narrative from the 13 Colonies through the Progressive Era."
     />
     <link rel="preconnect" href="https://commons.wikimedia.org" />
     <link rel="preconnect" href="https://upload.wikimedia.org" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page="home">
     <div class="progress-bar" aria-hidden="true"><span></span></div>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="The Unfinished Promise home">
+      <a class="brand" href="index.html" aria-label="The Unfinished Promise home">
         <span class="brand-mark" aria-hidden="true"></span>
         <span>The Unfinished Promise</span>
       </a>
       <nav class="room-nav" aria-label="Exhibit rooms">
-        <a href="#colonies">13 Colonies</a>
-        <a href="#new-era">New Era</a>
-        <a href="#westward-expansion">Westward Expansion</a>
-        <a href="#civil-war">Civil War</a>
-        <a href="#gilded-age">Gilded Age</a>
-        <a href="#progressive-era">Progressive Era</a>
+        <a data-page="colonies" href="colonies.html">13 Colonies</a>
+        <a data-page="new-era" href="new-era.html">New Era</a>
+        <a data-page="westward-expansion" href="westward-expansion.html">Westward Expansion</a>
+        <a data-page="civil-war" href="civil-war.html">Civil War</a>
+        <a data-page="gilded-age" href="gilded-age.html">Gilded Age</a>
+        <a data-page="progressive-era" href="progressive-era.html">Progressive Era</a>
       </nav>
       <button class="present-toggle" type="button" aria-pressed="false">
         Present
@@ -50,8 +50,8 @@
             fought over its limits, and forced the nation to decide who counted.
           </p>
           <div class="hero-actions" aria-label="Primary exhibit sections">
-            <a class="button primary" href="#museum-label">Museum Label</a>
-            <a class="button secondary" href="#colonies">Enter Gallery</a>
+            <a class="button primary" href="colonies.html">Enter Room 1</a>
+            <a class="button secondary" href="#museum-label">Museum Label</a>
           </div>
         </div>
       </section>
@@ -93,476 +93,37 @@
         <div class="section-kicker">Narrative Path</div>
         <h2 id="path-title" class="section-title reveal">Six Rooms, One Argument</h2>
         <div class="path-grid">
-          <a class="path-item reveal" href="#colonies">
+          <a class="path-item reveal" href="colonies.html">
             <span>01</span>
             <strong>The 13 Colonies</strong>
             <small>settlement, labor, self-government</small>
           </a>
-          <a class="path-item reveal" href="#new-era">
+          <a class="path-item reveal" href="new-era.html">
             <span>02</span>
             <strong>Colonial Times / A New Era</strong>
             <small>rights, independence, contradiction</small>
           </a>
-          <a class="path-item reveal" href="#westward-expansion">
+          <a class="path-item reveal" href="westward-expansion.html">
             <span>03</span>
             <strong>Westward Expansion</strong>
             <small>land, opportunity, displacement</small>
           </a>
-          <a class="path-item reveal" href="#civil-war">
+          <a class="path-item reveal" href="civil-war.html">
             <span>04</span>
             <strong>Civil War</strong>
             <small>union, slavery, Reconstruction</small>
           </a>
-          <a class="path-item reveal" href="#gilded-age">
+          <a class="path-item reveal" href="gilded-age.html">
             <span>05</span>
             <strong>Gilded Age</strong>
-            <small>industry, immigration, inequality</small>
+            <small>industry, monopoly, inequality</small>
           </a>
-          <a class="path-item reveal" href="#progressive-era">
+          <a class="path-item reveal" href="progressive-era.html">
             <span>06</span>
             <strong>Progressive Era</strong>
             <small>reform, evidence, democracy</small>
           </a>
         </div>
-      </section>
-
-      <section
-        class="gallery-room"
-        id="colonies"
-        data-room="13 Colonies"
-        aria-labelledby="colonies-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/1/15/Treaty_of_Penn_with_Indians_by_Benjamin_West.jpg"
-            alt="Benjamin West painting of William Penn meeting with Lenape leaders"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:Treaty_of_Penn_with_Indians_by_Benjamin_West.jpg" target="_blank" rel="noreferrer">
-            Image: Benjamin West, Penn's Treaty with the Indians, Wikimedia Commons
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1600s-1763</p>
-          <h2 id="colonies-title">Room 1: The 13 Colonies</h2>
-          <p class="room-thesis">
-            The first chapter of the U.S. story was not one single origin story. The
-            13 Colonies developed different economies and cultures while sharing a
-            growing attachment to local self-government, land, trade, and unequal labor.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>Benjamin West's Penn's Treaty with the Indians, 1771-1772</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                Benjamin West's painting depicts the legendary 1682 treaty between
-                William Penn and the Lenape people in Pennsylvania. Penn's colony was
-                shaped by Quaker ideals such as religious tolerance and peaceful
-                coexistence, so the image appears to show cooperation between European
-                settlers and Native peoples.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                The colonial period reveals the exhibit's central tension: Americans
-                often spoke about religious freedom, natural rights, representative
-                government, and equality before God, but those freedoms were selective.
-                Colonial liberty for settlers often depended on Native land acquisition,
-                enslaved African labor, and political rights limited mostly to white
-                male property owners.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                The painting is important because it presents an idealized image of
-                colonial harmony while hiding the unequal power that followed. It asks
-                viewers whether a society can claim freedom while expanding onto
-                Indigenous lands and excluding large groups from liberty.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>Jamestown began in 1607; Plymouth followed in 1620.</li>
-            <li>Colonies developed regional economies, including plantation agriculture, trade, and small farming.</li>
-            <li>European colonization displaced Native peoples and relied increasingly on enslaved African labor.</li>
-            <li>Colonial assemblies and town meetings helped train colonists in self-government.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: this idealized painting opens a conversation about how
-            colonies presented settlement as agreement while colonial growth often
-            produced dispossession and unequal power.
-          </p>
-        </article>
-      </section>
-
-      <section
-        class="gallery-room reverse"
-        id="new-era"
-        data-room="New Era"
-        aria-labelledby="new-era-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/Declaration%20of%20Independence%20%281819%29%2C%20by%20John%20Trumbull%20%28cropped%29.jpg?width=1200"
-            alt="Painting of delegates presenting the Declaration of Independence"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull_(cropped).jpg" target="_blank" rel="noreferrer">
-            Image: John Trumbull, Declaration of Independence, Wikimedia Commons
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1763-1789</p>
-          <h2 id="new-era-title">Room 2: Colonial Times / A New Era</h2>
-          <p class="room-thesis">
-            This unit follows the colonies as they turned protest into revolution and
-            then tried to build a new nation. The Revolution made liberty central to
-            American identity, but the founding left major questions unresolved.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>Declaration Table, 1776</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                The American Revolution challenged British authority and argued that
-                governments should depend on the consent of the governed. The
-                Declaration of Independence made the phrase "all men are created equal"
-                one of the most powerful statements in American history.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                The Revolution expanded ideas of freedom by rejecting monarchy,
-                defending natural rights, and creating a republic. At the same time,
-                many founders owned enslaved people, women received no political
-                rights, and Native nations often lost land and autonomy after the war.
-                The promise grew, but its application remained limited.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                John Trumbull's painting became a symbol of founding ideals. Its
-                significance comes from the contrast between the universal language of
-                equality and the narrow group of people who actually received full
-                citizenship and political power in the new nation.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>After 1763, British taxes and imperial policies intensified colonial resistance.</li>
-            <li>The Declaration of Independence announced equality as a national ideal.</li>
-            <li>The Revolutionary War lasted from 1775 to 1783.</li>
-            <li>The Constitution and Bill of Rights created a stronger republic while leaving many people outside full citizenship.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: the Revolution matters because it created the promise that
-            later generations would use to challenge exclusion.
-          </p>
-        </article>
-      </section>
-
-      <section
-        class="gallery-room"
-        id="westward-expansion"
-        data-room="Westward Expansion"
-        aria-labelledby="westward-expansion-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/American%20Progress%20%28John%20Gast%20painting%29.jpg?width=1200"
-            alt="John Gast painting American Progress depicting westward expansion"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:American_Progress_(John_Gast_painting).jpg" target="_blank" rel="noreferrer">
-            Image: John Gast, American Progress, Wikimedia Commons
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1803-1850s</p>
-          <h2 id="westward-expansion-title">Room 3: Westward Expansion</h2>
-          <p class="room-thesis">
-            Westward Expansion was presented as opportunity and national destiny, but
-            it also meant Native dispossession, war, forced removal, and new conflict
-            over whether slavery would expand into western territories.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>John Gast's American Progress, 1872</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                John Gast's American Progress became one of the most famous images of
-                Manifest Destiny. The central figure, Columbia, carries civilization
-                westward while railroads, telegraph lines, settlers, and industry move
-                behind her. Native peoples and wildlife retreat in front of her.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                Westward Expansion shows how the promise of America could expand for
-                some people while shrinking freedom for others. Land ownership, new
-                communities, and economic advancement became possible for many settlers,
-                but these opportunities depended on broken treaties, forced migration,
-                military conflict, and the loss of Native sovereignty.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                The painting celebrates westward movement as inevitable and beneficial,
-                which makes it a powerful example of how Americans justified expansion.
-                Today, it also reveals the cost of that progress by showing Indigenous
-                people pushed aside by the nation that claimed to be spreading freedom.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>The Louisiana Purchase in 1803 doubled the size of the United States.</li>
-            <li>Manifest Destiny claimed that U.S. expansion across the continent was inevitable and justified.</li>
-            <li>Policies such as Indian Removal forced Native nations from ancestral homelands.</li>
-            <li>The Mexican-American War and new western territories intensified the sectional crisis over slavery.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: this room treats expansion as both a dream of opportunity
-            and a warning about what happens when progress is defined by power.
-          </p>
-        </article>
-      </section>
-
-      <section
-        class="gallery-room reverse"
-        id="civil-war"
-        data-room="Civil War"
-        aria-labelledby="civil-war-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20President%20and%20General%20McClellan%20on%20the%20Battle-field%20of%20Antietam%20LCCN2010645740.jpg?width=1200"
-            alt="President Abraham Lincoln and General George McClellan seated in a tent at Antietam"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:The_President_and_General_McClellan_on_the_Battle-field_of_Antietam_LCCN2010645740.jpg" target="_blank" rel="noreferrer">
-            Image: Alexander Gardner, Antietam, Wikimedia Commons and Library of Congress
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1850s-1877</p>
-          <h2 id="civil-war-title">Room 4: Civil War</h2>
-          <p class="room-thesis">
-            The Civil War forced the nation to confront the contradiction at its
-            center: a republic built on liberty could not permanently survive while
-            protecting slavery. Reconstruction then tested whether emancipation would
-            become equal citizenship.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>Command Tent at Antietam and the Reconstruction Amendments</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                The Civil War was fundamentally tied to slavery and the future of the
-                Union. Antietam became the bloodiest single day in American military
-                history, and after the battle Lincoln issued the Emancipation
-                Proclamation. After the war, Reconstruction added the 13th, 14th, and
-                15th Amendments to the Constitution.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                This era marks one of the largest expansions of American freedom:
-                millions of enslaved people gained legal freedom, and national
-                citizenship was constitutionally defined. Yet freedom remained
-                contested through Black Codes, violence, voter suppression, segregation,
-                and the weakening of federal enforcement after Reconstruction.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                The Antietam photograph humanizes national leadership at a turning
-                point in the war and connects military conflict to emancipation. Paired
-                with the Reconstruction Amendments, it symbolizes both the fulfillment
-                of founding ideals and the struggle to enforce them.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>Eleven Southern states seceded after Abraham Lincoln's 1860 election.</li>
-            <li>Slavery and the power to expand it were central causes of the conflict.</li>
-            <li>The Emancipation Proclamation in 1863 changed the war's purpose toward freedom.</li>
-            <li>The 13th, 14th, and 15th Amendments abolished slavery, defined citizenship, and protected voting rights regardless of race.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: this room avoids battlefield spectacle and focuses on the
-            war's meaning: union, emancipation, and the unfinished fight over citizenship.
-          </p>
-        </article>
-      </section>
-
-      <section
-        class="gallery-room"
-        id="gilded-age"
-        data-room="Gilded Age"
-        aria-labelledby="gilded-age-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/Bosses%20of%20the%20Senate.jpg?width=1200"
-            alt="Joseph Keppler political cartoon showing wealthy monopolists looming over the U.S. Senate"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:Bosses_of_the_Senate.jpg" target="_blank" rel="noreferrer">
-            Image: Joseph Keppler, Bosses of the Senate, Wikimedia Commons and Library of Congress
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1870s-1890s</p>
-          <h2 id="gilded-age-title">Room 5: The Gilded Age</h2>
-          <p class="room-thesis">
-            Industrial growth made the United States richer and more connected, but it
-            also exposed how economic power could bend democracy and make ordinary
-            workers fight for safety, dignity, and political voice.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>Political Cartoon: Bosses of the Senate</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                The Gilded Age brought enormous industrial growth through railroads,
-                steel, oil, banking, and national markets. Business leaders such as
-                John D. Rockefeller, Andrew Carnegie, and J.P. Morgan helped transform
-                the economy, while many workers faced long hours, dangerous conditions,
-                and low wages.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                This era shows that freedom was not only political; it was also
-                economic. Industrial capitalism created innovation and opportunity, but
-                it concentrated wealth and influence. Labor conflicts such as Haymarket,
-                Homestead, and Pullman revealed that political equality could feel weak
-                when economic power was held by a small group.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                Bosses of the Senate became one of the most famous critiques of
-                industrial capitalism. By showing giant monopolies looming over
-                senators, the cartoon argues that wealthy business interests could
-                control democratic institutions from behind the scenes.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>Railroads, steel, oil, and finance helped create national markets and enormous fortunes.</li>
-            <li>Immigrants and rural migrants powered cities, factories, mines, and railroads.</li>
-            <li>Labor conflicts showed the cost of industrial growth for workers and families.</li>
-            <li>Political machines and corporate influence raised questions about corruption and representation.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: the cartoon works like a mirror, asking whether democracy
-            can survive when private wealth becomes public power.
-          </p>
-        </article>
-      </section>
-
-      <section
-        class="gallery-room reverse"
-        id="progressive-era"
-        data-room="Progressive Era"
-        aria-labelledby="progressive-era-title"
-      >
-        <div class="room-media reveal">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Child_laborer.jpg"
-            alt="Lewis Hine photograph of a young textile worker in a cotton mill"
-            loading="lazy"
-          />
-          <a href="https://commons.wikimedia.org/wiki/File:Child_laborer.jpg" target="_blank" rel="noreferrer">
-            Image: Lewis Hine, National Child Labor Committee Collection, Wikimedia Commons and Library of Congress
-          </a>
-        </div>
-        <article class="room-copy reveal">
-          <p class="era-tag">1890s-1920s</p>
-          <h2 id="progressive-era-title">Room 6: The Progressive Era</h2>
-          <p class="room-thesis">
-            Progressives tried to make government respond to the problems of industrial
-            America. Their reforms expanded democracy and regulation, but they also
-            reflected the limits and prejudices of their time.
-          </p>
-          <div class="artifact-line">
-            <span>Artifact</span>
-            <strong>Camera as Evidence</strong>
-          </div>
-          <div class="room-details">
-            <section class="detail-block">
-              <h3>Historical Context</h3>
-              <p>
-                Progressive reformers tried to address the problems created by rapid
-                industrialization. Child labor was a major concern because children
-                worked in factories, mines, textile mills, and farms, often in
-                dangerous conditions. Lewis Hine photographed child workers for the
-                National Child Labor Committee.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Connection to the Claim</h3>
-              <p>
-                The Progressive Era attempted to close the gap between American ideals
-                and social reality. Reformers argued that freedom required protection
-                from exploitation, not just the absence of government control. Still,
-                many reforms excluded African Americans or tolerated segregation,
-                showing that progress remained incomplete.
-              </p>
-            </section>
-            <section class="detail-block">
-              <h3>Artifact Significance</h3>
-              <p>
-                Hine's photographs changed public opinion by showing the human cost of
-                industrial labor. The camera became evidence: a tool that helped turn
-                private suffering into public responsibility and pushed government to
-                act when liberty existed in theory but exploitation existed in practice.
-              </p>
-            </section>
-          </div>
-          <p class="evidence-heading">Key Evidence</p>
-          <ul class="evidence-list">
-            <li>Journalists, photographers, and reformers exposed unsafe labor, poverty, and political corruption.</li>
-            <li>Reforms targeted child labor, food and drug safety, conservation, city government, and monopolies.</li>
-            <li>Women organized for suffrage, labor protections, schools, public health, and social welfare.</li>
-            <li>The 19th Amendment expanded voting rights for women, though many women of color still faced barriers.</li>
-          </ul>
-          <p class="curator-note">
-            Curator angle: the camera becomes an artifact of reform because evidence
-            helped turn private suffering into public responsibility.
-          </p>
-        </article>
       </section>
 
       <section class="theme-section" aria-labelledby="theme-title">
@@ -600,41 +161,13 @@
           <p>
             Taken together, these six artifacts reveal that American history is neither
             a straightforward story of freedom nor a story of oppression alone. It is a
-            continuing struggle over the meaning of liberty. The colonies promised
-            self-government while displacing Indigenous peoples. The Revolution
-            proclaimed equality while preserving slavery. Westward expansion created
-            opportunity while destroying Native sovereignty. The Civil War expanded
-            citizenship but faced resistance. Industrialization generated prosperity
-            while concentrating power. Progressive reform tried to correct injustice
-            while leaving many inequalities intact.
+            continuing struggle over the meaning of liberty.
           </p>
           <div class="question-strip" aria-label="Closing questions">
             <span>Who belongs?</span>
             <span>Who gets opportunity?</span>
             <span>What should government protect?</span>
           </div>
-        </div>
-      </section>
-
-      <section class="sources-section" aria-labelledby="sources-title">
-        <div class="section-kicker">Selected Sources</div>
-        <h2 id="sources-title" class="section-title reveal">Evidence Shelf</h2>
-        <div class="sources-list reveal">
-          <a href="https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/colonial-settlement-1600-1763/overview/" target="_blank" rel="noreferrer">Library of Congress: Colonial Settlement Overview</a>
-          <a href="https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/" target="_blank" rel="noreferrer">Library of Congress: The American Revolution</a>
-          <a href="https://www.archives.gov/founding-docs" target="_blank" rel="noreferrer">National Archives: America's Founding Documents</a>
-          <a href="https://www.loc.gov/rr/program/bib/ourdocs/Indian.html" target="_blank" rel="noreferrer">Library of Congress: Indian Removal Act Resources</a>
-          <a href="https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation" target="_blank" rel="noreferrer">National Archives: Emancipation Proclamation</a>
-          <a href="https://www.nps.gov/subjects/reconstruction/about.htm" target="_blank" rel="noreferrer">National Park Service: Reconstruction Era</a>
-          <a href="https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/" target="_blank" rel="noreferrer">Library of Congress: Rise of Industrial America</a>
-          <a href="https://www.loc.gov/pictures/collection/nclc/" target="_blank" rel="noreferrer">Library of Congress: National Child Labor Committee Collection</a>
-          <a href="https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/womens-suffrage-in-progressive-era/" target="_blank" rel="noreferrer">Library of Congress: Women's Suffrage in the Progressive Era</a>
-        </div>
-        <div class="scholarship-note reveal">
-          <p>
-            Scholarship referenced: Alan Taylor, Gordon Wood, Eric Foner, Robert M.
-            Utley, Richard White, and David Von Drehle.
-          </p>
         </div>
       </section>
     </main>
