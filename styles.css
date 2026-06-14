@@ -329,7 +329,7 @@ a {
 
 .path-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 12px;
   margin-top: 32px;
 }
@@ -847,12 +847,8 @@ body.presentation-mode {
   --header-height: 64px;
 }
 
-body.presentation-mode .room-nav {
-  display: none;
-}
-
 body.presentation-mode .site-header {
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
 }
 
 body.presentation-mode .gallery-room {
