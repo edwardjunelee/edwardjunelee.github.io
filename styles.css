@@ -9,10 +9,10 @@
   --quiet: #9b835e;
   --line: rgba(255, 222, 166, 0.17);
   --gold: #e1b85b;
-  --teal: #f2cf75;
-  --coral: #b87532;
-  --blue: #f6d98b;
-  --green: #c99a3f;
+  --yellow: #f2cf75;
+  --bronze: #b87532;
+  --amber: #f6d98b;
+  --ochre: #c99a3f;
   --shadow: rgba(0, 0, 0, 0.42);
   --max: 1160px;
   --header-height: 72px;
@@ -67,7 +67,7 @@ a {
   display: block;
   width: 0%;
   height: 100%;
-  background: linear-gradient(90deg, var(--gold), var(--teal), var(--coral));
+  background: linear-gradient(90deg, var(--gold), var(--yellow), var(--bronze));
   transition: width 120ms linear;
 }
 
@@ -101,8 +101,8 @@ a {
   width: 16px;
   height: 16px;
   border: 2px solid var(--gold);
-  border-left-color: var(--teal);
-  border-bottom-color: var(--coral);
+  border-left-color: var(--yellow);
+  border-bottom-color: var(--bronze);
   transform: rotate(45deg);
 }
 
@@ -133,18 +133,18 @@ a {
 
 .room-nav a:hover,
 .room-nav a.is-active {
-  color: var(--ink);
-  background: rgba(244, 239, 228, 0.1);
+  color: #17120a;
+  background: var(--gold);
   transform: translateY(-1px);
 }
 
 .present-toggle {
   min-width: 88px;
   height: 38px;
-  border: 1px solid rgba(215, 180, 106, 0.44);
+  border: 1px solid var(--gold);
   border-radius: 999px;
-  background: rgba(215, 180, 106, 0.12);
-  color: var(--gold);
+  background: var(--gold);
+  color: #17120a;
   font: inherit;
   font-size: 0.84rem;
   font-weight: 800;
@@ -157,8 +157,8 @@ a {
 
 .present-toggle:hover,
 .present-toggle[aria-pressed="true"] {
-  border-color: var(--gold);
-  background: var(--gold);
+  border-color: var(--yellow);
+  background: var(--yellow);
   color: #17120a;
 }
 
@@ -258,9 +258,14 @@ a {
 }
 
 .button.secondary {
-  border: 1px solid rgba(244, 239, 228, 0.32);
-  background: rgba(244, 239, 228, 0.08);
-  color: var(--ink);
+  border: 1px solid var(--gold);
+  background: var(--gold);
+  color: #17120a;
+}
+
+.button.primary:hover,
+.button.secondary:hover {
+  background: var(--yellow);
 }
 
 .label-section,
@@ -352,7 +357,7 @@ a {
 }
 
 .path-item span {
-  color: var(--teal);
+  color: var(--yellow);
   font-size: 0.78rem;
   font-weight: 900;
 }
@@ -464,7 +469,7 @@ a {
 .detail-block h2,
 .detail-block h3 {
   margin: 0 0 8px;
-  color: var(--blue);
+  color: var(--amber);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
@@ -486,12 +491,12 @@ a {
   display: grid;
   gap: 5px;
   padding: 16px 18px;
-  border-left: 4px solid var(--teal);
+  border-left: 4px solid var(--gold);
   background: rgba(242, 207, 117, 0.12);
 }
 
 .artifact-line span {
-  color: var(--teal);
+  color: var(--yellow);
   font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -505,7 +510,7 @@ a {
 
 .evidence-heading {
   margin: 0;
-  color: var(--coral);
+  color: var(--bronze);
   font-size: 0.74rem;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -534,7 +539,7 @@ a {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--coral);
+  background: var(--bronze);
 }
 
 .curator-note {
@@ -631,10 +636,10 @@ a {
   justify-content: center;
   min-height: 46px;
   padding: 0 16px;
-  border: 1px solid rgba(215, 180, 106, 0.38);
+  border: 1px solid var(--gold);
   border-radius: 999px;
-  background: rgba(215, 180, 106, 0.1);
-  color: var(--gold);
+  background: var(--gold);
+  color: #17120a;
   font-size: 0.92rem;
   font-weight: 900;
   transition:
@@ -645,8 +650,8 @@ a {
 
 .room-pager a:hover {
   transform: translateY(-2px);
-  border-color: var(--gold);
-  background: rgba(215, 180, 106, 0.18);
+  border-color: var(--yellow);
+  background: var(--yellow);
 }
 
 .theme-grid {
@@ -665,7 +670,7 @@ a {
 }
 
 .theme-card span {
-  color: var(--green);
+  color: var(--ochre);
   font-size: 0.74rem;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -753,7 +758,7 @@ a {
 }
 
 .conclusion-grid span {
-  color: var(--teal);
+  color: var(--yellow);
   font-size: 0.82rem;
   font-weight: 900;
   letter-spacing: 0.13em;
@@ -801,7 +806,7 @@ a {
   padding: 0 12px;
   border: 1px solid rgba(242, 207, 117, 0.42);
   border-radius: 999px;
-  color: var(--teal);
+  color: var(--yellow);
   font-size: 0.82rem;
   font-weight: 900;
 }
