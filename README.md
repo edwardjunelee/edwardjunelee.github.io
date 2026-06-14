@@ -12,5 +12,6 @@ The exhibit presents six chronological units:
 4. Civil War
 5. Gilded Age
 6. Progressive Era
+7. Conclusion
 
 Each room is published as its own page and is accessible from the navigation tabs.
